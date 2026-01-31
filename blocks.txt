@@ -86,3 +86,23 @@ This block uses the Pythagorean theorem to calculate the distance between two po
 It's useful for distance between clones or pen renders.
 
 ---
+NEXT UP: COMPLEX BLOCKS
+---
+
+Interpolate (number) By (number)
+This block is used to create smooth animations by interpolating a value over a specific number of frames.
+1st input is the total amount you want to interpolate.  
+2nd input is how many frames the interpolation should last.
+---
+Motion blur setup (number)
+This block sets up the motion blur system by creating transparent clones.
+The input is how many clones will form the blur trail.
+(More clones create a smoother blur but increases cost.  
+A range of 3 to 8 clones is recommended.)
+---
+Motion blur (number) Latency (number) Sprite (string)
+This block applies the motion blur effect to a specific sprite using the clones created in the setup.
+1st input is how transparent the blur is (0 = solid, 100 = invisible).  
+2nd input is how many frames it delays between movement.
+3rd input is the name of the sprite to follow.
+---
