@@ -1,0 +1,61 @@
+These are the blocks (for now):
+
+Animate through (number) To (number) Speed (number)
+  What this block does is use a "() mod ()" block to switch between a set number of
+  frames. (but you need to make them yourself)
+
+Collision check (string)
+  This block makes It easier and shorter to read a collision.
+  The collision output is given on the variable "Colliding?".
+  The input is for the sprite name, without It the block would not work.
+
+line (X1) (X2) (Y1) (Y2) (Color (HEX)) (size)
+  This block is very useful for rendering 2d or 3d objects easily.
+  Though you might get overwhelmed with all the inputs.
+
+New common query (any)
+  This is LITERALLY MADE for efficiency.
+  It gives the variable "query" whatever value you want if you need to use it various
+  times.
+
+Play sound (string) for (number) seconds
+  This is pretty useful if you don't know how to use the sound editor.
+  The first input needs the EXACT name of the sound you're trying to use.
+
+Prompt (any) and save to mem
+  This helps for things like questionaires and maybe AIs.
+
+range (number) (number)
+  This returns a random value between a range.
+  1st input is the middle point, and 2nd, is the range.
+  for example, range (0) (2) would give a random number between -2 and 2.
+
+sin wave (number) (number) (number)
+  This is pretty efficient and useful.
+  It creates any type of sin waves based of a timer.
+  1st input is middle point, 2nd input is speed and 3rd is the range.
+
+smooth say (any)
+  This is just cosmetic. It's like the text on AIs when It shows up
+  character by character.
+
+Topdown easy controls
+  It isn't very efficient, but it is pretty abstract.
+  It just gives multi-platform topdown controls.
+
+TypeOf (any)
+  This detects the type of value of the input. But array-like stuff Will be
+  detected as strings.
+
+Read through let (number) To let (number) Of (any)
+  This is pretty useful for reading values, and even I used It in part of
+  the framework config.
+  1st input is starting letter, 2nd is ending one, and 3rd is the text to read.
+
+Hitbox (x) (y) With properties (width) (height) Check collision with (string) Depuration? (boolean)
+  This is very complex.
+  To keep it simple, It creates a fake hitbox and checks collisions on It.
+
+Dist (X1) (y1) (x2) (y2)
+  This block uses the pythagorean theorem to calculate distances between 2 points.
+  It's useful for distance between clones or pen renders.
