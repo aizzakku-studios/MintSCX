@@ -77,3 +77,36 @@ Set up this:
 
 This can tell you the type of any value.  
 Minus things like arrays or tuples.
+
+# FOURTH TUTORIAL
+
+I'm sure that data management will be pretty useful in any app.  
+That's why today we are gonna use the three useful functions to manage data in MintSCX.  
+First, we are gonna add some data:
+
+`SCX & Scratch`<br>
+`when flag clicked`<br>
+`Save (apple) to data`<br>
+`Save (banana) to data`<br>
+`Save (orange) to data`
+
+Now that we have some data, let's read a specific item.  
+For example, let's read the second element:
+
+`SCX & Scratch`<br>
+`Read (2) From data`<br>
+`smooth say (Data readed)`
+
+This will say banana, since it's the second item in the list.
+
+Next, let's delete an item from the data list.  
+In this example, we will remove the first element:
+
+`SCX & Scratch`<br>
+`Elim (1) From data`
+
+Now your data list only contains banana and orange.
+
+You can combine these three functions to build things like inventories, task lists, save systems, or any kind of structured data.
+
+---
