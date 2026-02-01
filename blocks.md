@@ -92,31 +92,31 @@ It's useful for distance between clones or pen renders.
 ---
 
 `Interpolate (number) By (number)`<br>
-This block is used to create smooth animations by interpolating a value over a specific number of frames.
+This block is used to create smooth animations by interpolating a value over a specific number of frames.  
 1st input is the total amount you want to interpolate.  
 2nd input is how many frames the interpolation should last.
 
 ---
 
 `Motion blur setup (number)`<br>
-This block sets up the motion blur system by creating transparent clones.
-The input is how many clones will form the blur trail.
+This block sets up the motion blur system by creating transparent clones.  
+The input is how many clones will form the blur trail.  
 (More clones create a smoother blur but increases cost.  
 A range of 3 to 8 clones is recommended.)
 
 ---
 
 `Motion blur (number) Latency (number) Sprite (string)`<br>
-This block applies the motion blur effect to a specific sprite using the clones created in the setup.
+This block applies the motion blur effect to a specific sprite using the clones created in the setup.  
 1st input is how transparent the blur is (0 = solid, 100 = invisible).  
-2nd input is how many frames it delays between movement.
+2nd input is how many frames it delays between movement.  
 3rd input is the name of the sprite to follow.
 
 ---
 
 `Ftimer setup`<br>
 This block sets up a fake timer by storing the current “days since 2000” value.  
-It is used to create a custom timer so that you can reset the built-in one without affecting the functions that use timers.
+It is used to create a custom timer so that you can reset the built-in one without affecting the functions that use timers.  
 You must change timer manually to Ftimer in any function that uses it so it doesnt break.
 
 ---
