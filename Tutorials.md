@@ -5,8 +5,8 @@ First, create a sprite called "Player".
 Drag the blocks "Topdown easy controls" and "Collision check" to the new sprite.
 Set up this:
 
-`SCX & Scratch<br>
-when flag clicked<br> forever<br> Topdown easy controls`
+`SCX & Scratch`<br>
+`when flag clicked`<br> `forever`<br> `Topdown easy controls`
 
 Next, create a new sprite called "Walls".
 Center it at x: 0, y: 0 and give it a costume that represents your walls.
