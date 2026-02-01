@@ -1,2 +1,2 @@
-# MintSCX
-MintSCX is a Scratch "framework" that provides basic tools that make your project more abstract and efficient.
+# Here are our Docs!
+All the documentation on the blocks is on blocks.txt.
