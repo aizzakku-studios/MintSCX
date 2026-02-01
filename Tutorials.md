@@ -60,3 +60,20 @@ Then set up this:
 `pen up`
 
 Now you have a sine wave displayer.
+
+# THIRD TUTORIAL
+
+This is a small project, but it’s cool to have.  
+Make a new sprite called whatever you want.  
+Drag the blocks "Prompt and save to mem", "TypeOf" and "Smooth say" to that sprite.  
+Set up this:
+
+`SCX & Scratch`<br>
+`when flag clicked`<br>
+`delete all of [Pmem]`<br>
+`Prompt Input: And save to mem`<br>
+`TypeOf item (1) of [Pmem]`<br>
+`Smooth say `(Type)
+
+This can tell you the type of any value.  
+Minus things like arrays or tuples.
