@@ -5,7 +5,7 @@ MintSCX is a Scratch "framework" that provides basic tools that make your projec
   • More Efficient: Helps you save blocks and, because of that, more space for your program.  
 
 ![Here's the whole documentation on blocks!](https://github.com/aizzakku-studios/MintSCX/tree/block-docs)  
-![Here's our available tutorials!](https://github.com/aizzakku-studios/tree/Tutorials)  
+![Here's our available tutorials!](https://github.com/aizzakku-studios/MintSCX/tree/Tutorials)  
 ![MintSCX Logo](MintSCX-logo.png)
 
 # This is still on development ⚠️
