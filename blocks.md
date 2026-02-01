@@ -132,3 +132,21 @@ This block gives you the time passed between frames.
 It stores the current timer value and resets the built‑in timer, allowing you to calculate frame‑based movement or animations.
 
 ---
+
+`Elim (number) From data`<br>
+This block removes an item from a data list using its index.  
+The input is a number, which represents the position of the item you want to delete.
+
+---
+
+`Read (number) From data`<br>
+This block reads a specific item from a data list.  
+The input is a number, and the output is stored in the variable “Data readed”.
+
+---
+
+`Save (any) To data`<br>
+This block adds any value to a data list.  
+Useful for storing text, numbers, or any other type of value.
+
+---
