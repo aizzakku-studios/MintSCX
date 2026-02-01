@@ -1,4 +1,4 @@
-# MintSCX
+# MintSCX🌿
 MintSCX is a Scratch "framework" that provides basic tools that make your project:  
 
   • More abstract: It helps you understand better what you are coding.  
