@@ -2,86 +2,86 @@
 
 ---
 
-`Animate through (number) To (number) Speed (number)`
+`Animate through (number) To (number) Speed (number)`<br>
 What this block does is use a "() mod ()" block to switch between a set number of frames.  
 (But you need to make the frames yourself.)
 
 ---
 
-`Collision check (string)`
+`Collision check (string)`<br>
 This block makes it easier and shorter to read a collision.  
 The collision output is stored in the variable "Colliding?"  
 The input is the sprite name; without it, the block will not work.
 
 ---
 
-`line (X1) (X2) (Y1) (Y2) (Color HEX) (size)`
+`line (X1) (X2) (Y1) (Y2) (Color HEX) (size)`<br>
 This block is very useful for rendering 2D or 3D objects easily.  
 Though you might get overwhelmed with all the inputs.
 
 ---
 
-`New common query (any)`
+`New common query (any)`<br>
 This is literally made for efficiency.  
 It gives the variable "query" whatever value you want, so you can reuse it multiple times.
 
 ---
 
-`Play sound (string) for (number) seconds`
+`Play sound (string) for (number) seconds`<br>
 This is pretty useful if you don't know how to use the sound editor.  
 The first input needs the exact name of the sound you're trying to use.
 
 ---
 
-`Prompt (any) and save to mem`
+`Prompt (any) and save to mem`<br>
 This helps with things like questionnaires or maybe simple AIs.
 
 ---
 
-`range (number) (number)`
+`range (number) (number)`<br>
 This returns a random value within a range.  
 1st input is the middle point, and 2nd is the range.  
 For example, range(0, 2) would give a random number between -2 and 2.
 
 ---
 
-`sin wave (number) (number) (number)`
+`sin wave (number) (number) (number)`<br>
 This is pretty efficient and useful.  
 It creates any type of sine wave based on a timer.  
 1st input is the middle point, 2nd is the speed, and 3rd is the range.
 
 ---
 
-`smooth say (any)`
+`smooth say (any)`<br>
 This is just cosmetic. It's like the text AIs show when it appears character by character.
 
 ---
 
-`Topdown easy controls`
+`Topdown easy controls`<br>
 It isn't very efficient, but it is pretty abstract.  
 It simply gives multi‑platform top‑down controls.
 
 ---
 
-`TypeOf (any)`
+`TypeOf (any)`<br>
 This detects the type of the input value.  
 But array‑like values will be detected as strings.
 
 ---
 
-`Read through let (number) To let (number) Of (any)`
+`Read through let (number) To let (number) Of (any)`<br>
 This is pretty useful for reading values, and I even used it in part of the framework config.  
 1st input is the starting letter, 2nd is the ending one, and 3rd is the text to read.
 
 ---
 
-`Hitbox (x) (y) With properties (width) (height) Check collision with (string) Depuration? (boolean)`
+`Hitbox (x) (y) With properties (width) (height) Check collision with (string) Depuration? (boolean)`<br>
 This is very complex.  
 To keep it simple: it creates a fake hitbox and checks collisions on it.
 
 ---
 
-`Dist (x1) (y1) (x2) (y2)`
+`Dist (x1) (y1) (x2) (y2)`<br>
 This block uses the Pythagorean theorem to calculate the distance between two points.  
 It's useful for distance between clones or pen renders.
 
@@ -91,14 +91,14 @@ It's useful for distance between clones or pen renders.
 
 ---
 
-`Interpolate (number) By (number)`
+`Interpolate (number) By (number)`<br>
 This block is used to create smooth animations by interpolating a value over a specific number of frames.
 1st input is the total amount you want to interpolate.  
 2nd input is how many frames the interpolation should last.
 
 ---
 
-`Motion blur setup (number)`
+`Motion blur setup (number)`<br>
 This block sets up the motion blur system by creating transparent clones.
 The input is how many clones will form the blur trail.
 (More clones create a smoother blur but increases cost.  
@@ -106,7 +106,7 @@ A range of 3 to 8 clones is recommended.)
 
 ---
 
-`Motion blur (number) Latency (number) Sprite (string)`
+`Motion blur (number) Latency (number) Sprite (string)`<br>
 This block applies the motion blur effect to a specific sprite using the clones created in the setup.
 1st input is how transparent the blur is (0 = solid, 100 = invisible).  
 2nd input is how many frames it delays between movement.
@@ -114,20 +114,20 @@ This block applies the motion blur effect to a specific sprite using the clones 
 
 ---
 
-`Ftimer setup`
+`Ftimer setup`<br>
 This block sets up a fake timer by storing the current “days since 2000” value.  
 It is used to create a custom timer so that you can reset the built-in one without affecting the functions that use timers.
 You must change timer manually to Ftimer in any function that uses it so it doesnt break.
 
 ---
 
-`Ftimer ` 
+`Ftimer ` <br>
 This block calculates how many seconds have passed since the last time Ftimer setup was called.  
 It subtracts the stored value from the current “days since 2000” and converts the result into seconds.
 
 ---
 
-`Deltatime  `
+`Deltatime  `<br>
 This block gives you the time passed between frames.  
 It stores the current timer value and resets the built‑in timer, allowing you to calculate frame‑based movement or animations.
 
