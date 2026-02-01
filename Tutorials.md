@@ -73,7 +73,7 @@ Set up this:
 `delete all of [Pmem]`<br>
 `Prompt Input: And save to mem`<br>
 `TypeOf item (1) of [Pmem]`<br>
-`Smooth say `(Type)
+`Smooth say (Type)`
 
 This can tell you the type of any value.  
 Minus things like arrays or tuples.
