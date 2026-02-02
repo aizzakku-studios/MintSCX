@@ -150,3 +150,20 @@ This block adds any value to a data list.
 Useful for storing text, numbers, or any other type of value.
 
 ---
+
+`Find (any) in data`<br>
+This block searches the data list for a specific value.  
+It returns the index (number) of the first matching item.  
+If the value is not found, it returns 0.
+
+Useful for inventories, searching text, or checking if something already exists in your data.
+
+---
+
+`Count occurrences of (any) in data`<br>
+This block counts how many times a specific value appears in the data list.  
+It returns a number representing the total matches.
+
+Great for statistics, repeated items, or validating user input.
+
+---
