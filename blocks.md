@@ -167,3 +167,46 @@ It returns a number representing the total matches.
 Great for statistics, repeated items, or validating user input.
 
 ---
+
+`Is (input) between (min) and (max)?`<br>
+This block checks if a value is inside a numeric range.  
+It returns true if the input is greater than or equal to min and less than or equal to max.  
+Otherwise, it returns false.
+
+Useful for validating values, clamping logic, or checking boundaries in games.
+
+---
+
+`Toggle bool`<br>
+This block flips a boolean variable between true and false.  
+If the value was true, it becomes false.  
+If it was false, it becomes true.
+
+Great for switches, states, UI toggles, and simple logic systems.
+
+---
+
+`Single out (data)`<br>
+This block removes duplicate values of the data you want in the data list.  
+After running it, the list will contain only unique items, keeping the first occurrence of each one.
+
+Useful for cleaning data, inventories, or avoiding repeated entries.
+
+---
+
+`Pulse to (size) speed (speed)`<br>
+This block smoothly scales a sprite up to a target size and then returns it back to normal, creating a “pulse” effect.  
+The speed controls how fast the pulse animation happens. (less speed = less iterations)
+
+Perfect for UI feedback, hit effects, attention grabbers, or animated buttons.
+
+---
+
+`Tween (angle) (speed) (cw or ccw)`<br>
+This block rotates the sprite smoothly toward a target angle.  
+You can choose the direction: cw (clockwise) or ccw (counter‑clockwise).  
+The speed determines how fast the rotation interpolates. (less speed = less iterations)
+
+Useful for animations, aiming systems, transitions, and polished movement.
+
+---
