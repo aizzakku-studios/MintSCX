@@ -38,13 +38,6 @@ This helps with things like questionnaires or maybe simple AIs.
 
 ---
 
-`range (number) (number)`<br>
-This returns a random value within a range.  
-1st input is the middle point, and 2nd is the range.  
-For example, range(0, 2) would give a random number between -2 and 2.
-
----
-
 `sin wave (number) (number) (number)`<br>
 This is pretty efficient and useful.  
 It creates any type of sine wave based on a timer.  
@@ -60,12 +53,6 @@ This is just cosmetic. It's like the text AIs show when it appears character by 
 `Topdown easy controls`<br>
 It isn't very efficient, but it is pretty abstract.  
 It simply gives multi‑platform top‑down controls.
-
----
-
-`TypeOf (any)`<br>
-This detects the type of the input value.  
-But array‑like values will be detected as strings.
 
 ---
 
