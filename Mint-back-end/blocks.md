@@ -96,3 +96,19 @@ After running it, the list will contain only unique items, keeping the first occ
 Useful for cleaning data, inventories, or avoiding repeated entries.
 
 ---
+
+`New var (var)`<br>
+This block creates a functioning variable that can be used as storage.
+Useful for inventories, etc.
+
+---
+
+`Set (var) to (val)`<br>
+Sets the value of a variable to something else.
+
+---
+
+`Fetch var data (var)`<br>
+This block stores the variable data in the variable Var Data.
+
+---
